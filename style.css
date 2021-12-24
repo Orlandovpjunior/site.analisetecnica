@@ -1,0 +1,83 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@900&family=Passion+One&family=Sriracha&display=swap');
+
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+:root{
+    --font01: 'Montserrat', sans-serif;
+    --font02: 'Lato', sans-serif;
+    --cor01: #15AD4C;
+    --cor02: #043838;
+    --cor03: #BAB30D;
+    --cor04: #0846A6;
+}
+
+body{
+    background-image: url('img/marcadofin.jpeg');
+}
+
+header{
+    background-color: var(--cor01);
+    font-family: var(--font01);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+header > nav{
+    font-size: 16px;
+    text-align: right;
+    padding: 10px;
+}
+
+nav > a{
+    margin: 5px;
+    text-decoration: none;   
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: var(--cor02);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: underline;  
+    transition: 0.3s;
+    color: white;
+}
+
+main{
+    max-width: 850px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.534);
+}
+
+section{
+    height: 600px;
+}
+
+section > h3{
+    padding: 10px;
+}
+
+section > p{
+    padding: 10px;
+}
+
+h3{
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01));
+    color: white;
+    border-radius: 5px;
+}
+
