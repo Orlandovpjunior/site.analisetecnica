@@ -37,12 +37,13 @@ header > nav{
 }
 
 nav > a{
-    margin: 5px;
+    margin: 4px;
     text-decoration: none;   
 }
 
 a{
     text-decoration: none;
+    font-size: 15px;
 }
 
 a:hover{
@@ -68,16 +69,18 @@ main{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.534);
 }
 
+
+
 section{
-    height: 550px;
+    height: 580px;
 }
 
 section#img2{
-    height: 500px;
+    height: 550px;
 }
 
 section#img3{
-    height: 500px;
+    height: 530px;
 }
 
 section > h3{
@@ -99,6 +102,6 @@ footer{
     text-align: center;
     padding: 10px;
     color: white;
-    font-size: 16px;
+
 }
 
