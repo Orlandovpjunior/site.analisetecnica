@@ -69,8 +69,6 @@ main{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.534);
 }
 
-
-
 section{
     height: 580px;
 }
@@ -102,6 +100,6 @@ footer{
     text-align: center;
     padding: 10px;
     color: white;
-
+    font-size: 18px;
 }
 
