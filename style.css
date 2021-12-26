@@ -18,6 +18,7 @@
 
 body{
     background-image: url('img/marcadofin.jpeg');
+    background-size: cover;
 }
 
 header{
@@ -68,7 +69,15 @@ main{
 }
 
 section{
-    height: 600px;
+    height: 550px;
+}
+
+section#img2{
+    height: 500px;
+}
+
+section#img3{
+    height: 500px;
 }
 
 section > h3{
@@ -83,5 +92,13 @@ h3{
     background-image: linear-gradient(to right, var(--cor02), var(--cor01));
     color: white;
     border-radius: 5px;
+}
+
+footer{
+    background-color: var(--cor01);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
 }
 
